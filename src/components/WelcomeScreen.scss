@@ -1,0 +1,28 @@
+// styles/WelcomePage.scss
+
+@import "./Styling.scss";
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Arial', sans-serif;
+  background-color: $backroundColor; 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.welcome-container {
+  text-align: center;
+  color: $textColor; 
+}
+
+.welcome-message {
+  font-size: 2em;
+  margin-bottom: 20px;
+}
+
+.start-button {
+  @extend .button;
+}

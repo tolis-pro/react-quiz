@@ -1,0 +1,12 @@
+/* components/Quiz.css */
+@import './Styling.scss';
+div {
+    text-align: center;
+    margin-top: 50px;
+  }
+  
+  .finish-button{
+    @extend .button;
+  }
+  
+  

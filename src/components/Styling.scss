@@ -1,0 +1,25 @@
+$backroundColor: #17BEBB;
+$textColor: #4B1D3F;
+$buttonColor: #D62246;
+$buttonTextColor: #D4F4DD;
+$onHoverButtonColor: #edac56;
+$fontFamily : 'Arial', sans-serif;
+
+.button{
+
+    background-color: $buttonColor; 
+  color: $buttonTextColor; 
+  margin-top: 20px;
+  padding: 10px 20px;
+  font-size: 1.2em;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.3s, box-shadow 0.3s;
+
+  &:hover {
+    background-color: darken($onHoverButtonColor, 10%);
+    transform: scale(1.1); 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); 
+  }
+}

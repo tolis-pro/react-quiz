@@ -1,0 +1,56 @@
+@import "./Styling.scss";
+
+div {
+    text-align: center;
+    margin-top: 50px;
+  }
+  
+  h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: $textColor ;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;   
+    color: $textColor;
+    font-size: 1.5rem;
+    
+  }
+  
+  input {
+    appearance: none;
+    margin: 5px;
+
+  }
+  
+  .radio-input{
+   margin-right: 10px;
+   
+  appearance: none;
+  border: 2px solid $buttonColor; 
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+  outline: none;
+  cursor: pointer;
+
+  &:checked {
+    background-color: $onHoverButtonColor; 
+  }
+  }
+
+  .radio-label{
+    margin-right: 5px;
+  
+  
+  }
+
+  
+
+  
+  
+  
+  
